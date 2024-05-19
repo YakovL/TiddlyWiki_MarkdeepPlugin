@@ -3,6 +3,7 @@
 |Source     |https://github.com/YakovL/TiddlyWiki_MarkdeepPlugin/blob/master/MarkdeepPlugin.js|
 |Author     |Yakov Litvin|
 |Version    |1.0.1|
+|Demo       |https://yakovl.github.io/TiddlyWiki_MarkdeepPlugin/#MarkdeepPlugin|
 |License    |[[MIT|https://github.com/YakovL/TiddlyWiki_YL_ExtensionsCollection/blob/master/Common%20License%20(MIT)]]|
 Usage: wrap [[markdeep|https://casual-effects.com/markdeep/]] in {{{<markdeep>...</markdeep>}}}, for instance:
 
