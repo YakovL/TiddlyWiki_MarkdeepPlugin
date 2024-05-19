@@ -2,7 +2,7 @@
 |Description|Create diagrams using the Markdeep syntax|
 |Source     |https://github.com/YakovL/TiddlyWiki_MarkdeepPlugin/blob/master/MarkdeepPlugin.js|
 |Author     |Yakov Litvin|
-|Version    |1.0|
+|Version    |1.0.1|
 |License    |[[MIT|https://github.com/YakovL/TiddlyWiki_YL_ExtensionsCollection/blob/master/Common%20License%20(MIT)]]|
 Usage: wrap [[markdeep|https://casual-effects.com/markdeep/]] in {{{<markdeep>...</markdeep>}}}, for instance:
 
@@ -64,8 +64,10 @@ config.formatters.push({
 		}
 	}
 });
+
+// rebuild formatter for using with SharedTiddlersPlugin, TiddlerInFfilePlugin, etc
+formatter = new Formatter(config.formatters);
+
 // window.markdeep.format(src, elementMode) – see second argument in docs
 //# add another formatter for diagrams? (window.markdeep.formatDiagram(str, alignment) is out there)
-//# rebuild formatter?
-//  formatter = new Formatter(config.formatters);
 //}}}
